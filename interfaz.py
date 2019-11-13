@@ -96,8 +96,6 @@ boton_recortar.grid(column=0,row=4)
 ## LOOP PARA MANTENER VENTANA
 window.mainloop()
 
-
-
 # ALGUNAS NOTAS
 # - En el argumento de "command" para botones, use Lambda para
 #   poder pasar argumentos a los Placeholder. Sin Lambda,
