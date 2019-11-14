@@ -15,6 +15,11 @@ def cortar():
 
 	#En el polygon, se agregan las coordenada xy del punto
 	polygon = [(40,20),(45,25),(50,30),(55,35),(60,40),(65,45),(70,50),(85,55),(90,60),(95,65)]
+<<<<<<< Updated upstream
+=======
+	
+# create new image ("1-bit pixels, black and white", (width, height), "default color")
+>>>>>>> Stashed changes
 	maskIm = Image.new('L', (imArray.shape[1], imArray.shape[0]), 0)
 	ImageDraw.Draw(maskIm).polygon(polygon, outline=1, fill=1)
 	mask = numpy.array(maskIm)
@@ -48,6 +53,7 @@ def cortar():
 	# im1.show() 
 cortar()
 
+<<<<<<< Updated upstream
 # import numpy
 # from PIL import Image, ImageDraw
 
@@ -76,3 +82,6 @@ cortar()
 # newIm = Image.fromarray(newImArray, "RGBA")
 # newIm.save("out.png")
 # shareimprove this answer
+=======
+#https://stackoverflow.com/questions/22588074/polygon-crop-clip-using-python-pil
+>>>>>>> Stashed changes
